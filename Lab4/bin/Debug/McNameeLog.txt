@@ -1,0 +1,13 @@
+Command: Jon McNamee
+Command: 6/8/2023 2:30:48 PM
+Command: DROP TABLE IF EXISTS families
+Command: SHOW TABLES
+Command: SELECT MIN(hire_date) FROM employees
+Command: SELECT MAX(hire_date) FROM employees
+Command: SELECT DISTINCT title FROM titles ORDER BY title
+Command: UPDATE dept_emp SET to_date = '2023-06-08' WHERE to_date > '2023-06-08'
+Command: UPDATE dept_manager SET to_date = '2023-06-08' WHERE to_date > '2023-06-08'
+Command: UPDATE salaries SET to_date = '2023-06-08' WHERE to_date > '2023-06-08'
+Command: UPDATE titles SET to_date = '2023-06-08' WHERE to_date > '2023-06-08'
+Command: SELECT emp_no FROM titles WHERE title = 'Assistant Engineer'
+Command: SELECT emp_no FROM titles WHERE title = 'Senior Engineer'
